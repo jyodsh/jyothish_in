@@ -7,51 +7,47 @@
     <title>::. Jyothish Sebastian - Personal Website.</title>
 
 <style>
-.jyothis_in {
-    font-family: Courier, monospace;
-	display: inline-block;
+.typewriter h1,p {
+  width: 80%;
+  display: block;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
 }
 
-.jyothis_in-text {
-    display: inline-block;
-  	overflow: hidden;
-  	letter-spacing: 2px;
- 	animation: typing 5s steps(30, end), blink .75s step-end infinite;
-    white-space: nowrap;
-    font-size: 30px;
-    font-weight: 700;
-    border-right: 4px solid orange;
-    box-sizing: border-box;
-}
-
+/* The typing effect */
 @keyframes typing {
-    from { 
-        width: 0% 
-    }
-    to { 
-        width: 100% 
-    }
+  from { width: 0 }
+  to { width: 100% }
 }
 
-@keyframes blink {
-    from, to { 
-        border-color: transparent 
-    }
-    50% { 
-        border-color: orange; 
-    }
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }
+
 
 </style>
 </head>
 <body>
-    <div class="jyothis_in">
-        <div class="jyothis_in-text">
-            Hello, I'm Jyothish. Passionate about developing web based applications.
-            Mostly I work on open source technology stacks. 
-            I love to work with PHP, Drupal, nodeJS, reactJS, SSG's..... 
 
-        </div>
-    </div>
+
+
+<div class="typewriter">
+        <p>
+                Hello, I'm Jyothish. 8+ years of experience in Web based solutions.
+                My experience is diversified from basic static portal to compltex entreprise web based
+                application. When I'm out of work, often I write blogs and publish 
+                <a href="thakshashila.com" >here</a> 
+    
+        </p>
+      </div>
+
 </body>
 </html>
