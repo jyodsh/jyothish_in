@@ -54,14 +54,17 @@ copyright = "© {year}"
 
 # Controls the navigation
 
-[[menu.main]]
-  identifier = "about"
-  name = "about"
-  title = "about"
-  url = "/blog"
 
 [[menu.main]]
   identifier = "home"
   name = "home"
   title = "Home"
   url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "about"
+  name = "about"
+  title = "about"
+  url = "/about"
+  weight = 2
