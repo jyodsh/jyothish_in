@@ -1,0 +1,32 @@
+{{ define "styles" }}
+    {{ $.Scratch.Set "style_opts" (dict "src" "scss/pages/about.scss" "dest" "css/about.css") }}
+{{ end }}
+
+{{ define "main" }}
+
+<div class="splash-container">
+  <div class="splash">
+    
+    <h1>{{ .Params.heading }}<span class="fancy">.</span></h1>
+    {{ if isset .Params "handle" }}
+    <span class="handle">@{{ .Params.handle }}</span>
+    {{ end }}
+    <h2>
+      {{ .Params.subheading }}
+    </h2>
+    <!-- Replace MEEEEE -->
+    <p> 
+      More than 10 years experience in technology related services.  
+      Works in healthcare domain as full time employee,  
+      and volunteering my time to education system in India to create technology enabled services.   
+      When I'm not working, often I write blogs and publish at
+     [Thakshashila](https://thakshashila.com/).  
+     Often I take photos and publish in [Instagram](https://www.instagram.com/jyodsh/)  
+     and in my photo blog [LensTale](https://www.lenstale.com/).
+    </p>
+
+    {{ partial "social-icons.html" .}}
+  </div>
+</div>
+
+{{ end }}
