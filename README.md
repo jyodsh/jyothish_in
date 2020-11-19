@@ -1,2 +1,2 @@
 # jyothish_in
-Template of jyothish.in
+content for jyothish.in
