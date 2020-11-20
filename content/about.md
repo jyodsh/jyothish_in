@@ -8,7 +8,7 @@ math: false
 toc: true
 ---
 
-More than 10 years experience in technology related services.  
+A decade of experience in technology related services.  
  Works in healthcare domain as full time employee,  
  and volunteering my time to education system in India to create technology enabled services.   
  When I'm not working, often I write blogs and publish at
