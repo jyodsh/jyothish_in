@@ -62,10 +62,10 @@ copyright = "© {year}"
   weight = 1
 
 [[menu.main]]
-  identifier = "about"
-  name = "About Me"
-  title = "about"
-  url = "/about"
+  identifier = "blog"
+  name = "Blog"
+  title = "blog"
+  url = "https://thakshashila.com/"
   weight = 2
 
 [[menu.main]]
