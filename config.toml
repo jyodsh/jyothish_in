@@ -54,17 +54,30 @@ copyright = "© {year}"
 
 # Controls the navigation
 
-
 [[menu.main]]
   identifier = "home"
-  name = "home"
-  title = "Home"
+  name = "Home"
+  title = "home"
   url = "/"
   weight = 1
 
 [[menu.main]]
   identifier = "about"
-  name = "about"
+  name = "About Me"
   title = "about"
   url = "/about"
   weight = 2
+
+[[menu.main]]
+  identifier = "photos"
+  name = "Photos"
+  title = "photos"
+  url = "https://www.lenstale.com/"
+  weight = 3
+
+[[menu.main]]
+  identifier = "instagram"
+  name = "Instagram"
+  title = "instagram"
+  url = "https://www.instagram.com/jyodsh"
+  weight = 4
