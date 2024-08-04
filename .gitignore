@@ -34,3 +34,7 @@ yarn-error.log*
 .vercel
 
 public/feed.xml
+
+
+#local
+.DS_Store
