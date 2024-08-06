@@ -16,11 +16,11 @@ export const metadata: Metadata = {
   },
   description: 'This is my portfolio.',
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
+    title: 'Jyothish Sebastian',
+    description: 'Personal website of Jyothish Sebastian.',
     url: baseUrl,
-    siteName: 'My Portfolio',
-    locale: 'en_US',
+    siteName: 'Jyothish Sebastian ',
+    locale: 'en_IN',
     type: 'website',
   },
   robots: {
