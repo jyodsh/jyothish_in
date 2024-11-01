@@ -2,7 +2,7 @@ import { BlogPosts } from 'app/components/posts'
 
 export const metadata = {
   title: 'Blog',
-  description: 'Read my blog.',
+  description: 'Jyothish Sebastian - Personal Blog',
 }
 
 export default function Page() {
@@ -13,3 +13,4 @@ export default function Page() {
     </section>
   )
 }
+
