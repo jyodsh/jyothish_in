@@ -791,7 +791,7 @@ export function Component({ title, optional = 'default' }: Props) {
 ### Import Aliases
 
 - Use absolute imports from project root (configured in tsconfig.json)
-- Example: `import { Navbar } from 'app/components/nav'`
+- Example: `**import** { Navbar } from 'app/components/nav'`
 
 ---
 
